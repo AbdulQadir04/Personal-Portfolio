@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Qadir | Portfolio</title>
+  <meta name="description" content="Abdul Qadir's modern portfolio. Freelancer in web and graphics design using HTML, CSS, JS, Python, Canva, Photoshop.">
+  <meta name="keywords" content="Abdul Qadir, Web Developer, Python, Fiverr, Portfolio, Designer">
+  <meta name="author" content="Abdul Qadir">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <h1 id="typed"></h1>
+    </div>
+  </header>
+
+  <section id="experience" class="section" data-aos="fade-up">
+    <div class="glass-card">
+      <h2>Experience</h2>
+      <h4>Freelance Web & Graphics Developer – Fiverr</h4>
+      <ul>
+        <li>Designed graphics using Canva, Photoshop, Illustrator</li>
+        <li>Built responsive web apps using HTML, CSS, JS</li>
+        <li>Created Python GUI tools using Tkinter</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education" class="section" data-aos="fade-up">
+    <div class="glass-card">
+      <h2>Education</h2>
+      <p><strong>University of Sindh, Jamshoro</strong></p>
+      <p>Bachelor's in Computer Science (2021–2025) | CGPA: 2.83</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-up">
+    <div class="glass-card">
+      <h2>Projects</h2>
+      <div class="filter-buttons">
+        <button data-filter="all">All</button>
+        <button data-filter="web">Web</button>
+        <button data-filter="mobile">Mobile</button>
+        <button data-filter="design">Design</button>
+      </div>
+      <div class="projects-grid">
+        <div class="glass-card" data-category="web">
+          <h4>Amazon Clone</h4>
+          <button class="view-btn" data-modal="modal1">View Details</button>
+        </div>
+        <div class="glass-card" data-category="mobile">
+          <h4>WhatsApp Clone</h4>
+          <button class="view-btn" data-modal="modal2">View Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h4>Amazon Clone</h4>
+      <p>Built with React and Firebase. Stripe payment, user auth, product listings.</p>
+      <a href="https://github.com/AbdulQadir04/amazone-clone" target="_blank">GitHub Link</a>
+    </div>
+  </div>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h4>WhatsApp Clone</h4>
+      <p>React Native app with real-time Firebase chat, authentication, and clean UI.</p>
+      <a href="https://github.com/AbdulQadir04/WhatsApp-Clone-with-react-native" target="_blank">GitHub Link</a>
+    </div>
+  </div>
+
+  <section id="resume" class="section" data-aos="fade-up">
+    <div class="glass-card">
+      <h2>Resume</h2>
+      <p>Download my full resume here:</p>
+      <a class="btn btn-light" href="Abdul_Qadir_Resume (1).pdf" download>Download PDF</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="glass-card">
+      <h2>Contact</h2>
+      <p>Email: aq7284537@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/AbdulQadir04" target="_blank">AbdulQadir04</a></p>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
